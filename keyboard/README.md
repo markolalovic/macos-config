@@ -1,11 +1,14 @@
 # Keyboard Configuration for Durgod Taurus K320 using Karabiner
 
+
 ## Simple Modifications
+These modifications make the keyboard layout (control, command, option) similar to that on Mac keyboards:
 
 * application -> right_option
 * right_option -> right_command
 
 ## Complex Modifications
+These modifications make the navigation keys, and shortcuts to take screenshots, just like on Ubuntu Linux:
 
 * shift+print_screen to command+shift+4
 * print_screen to command+shift+3
