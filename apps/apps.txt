@@ -1,0 +1,9 @@
+iterm2
+wget
+sublime-text
+telnet
+tldr
+keka
+ffmpeg
+imagemagick
+vlc
