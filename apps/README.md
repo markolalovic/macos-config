@@ -5,7 +5,7 @@
 * sublime-text
 * telnet
 * tldr
-* keka
+* [keka](https://github.com/aonez/Keka)
 * ffmpeg
 * imagemagick
 * vlc
@@ -13,17 +13,17 @@
 
 ## Login Items
 
-* Itsycal
+* [Itsycal](https://github.com/sfsam/Itsycal)
 * Raycast
 * Rectangle
-* SaneSideButtons
-* Stats
+* [SaneSideButtons](https://github.com/thealpa/SaneSideButtons)
+* [Stats](https://github.com/exelban/stats)
 
 ## Alow in the Background
 
-* AltTab
+* [AltTab](https://github.com/lwouis/alt-tab-macos)
 * KEY
-* Hidden Bar
+* [Hidden Bar](https://github.com/dwarvesf/hidden)
 * Karabiner-DriverKit
 * Karabiner-Elements
 
