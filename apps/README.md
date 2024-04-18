@@ -9,7 +9,7 @@
 * ffmpeg
 * imagemagick
 * vlc
-* sanesidebuttons
+* [sanesidebuttons](https://github.com/thealpa/SaneSideButtons)
 
 ## Login Items
 
