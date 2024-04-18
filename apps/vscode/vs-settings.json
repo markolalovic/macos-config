@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Just Black",
+    "editor.minimap.enabled": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.inlineSuggest.showToolbar": "never",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.suggest.showInlineDetails": false,
+    "editor.hover.enabled": false,
+    "editor.hover.sticky": false,
+    "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "right",
+    "editor.snippetSuggestions": "top",
+    "editor.linkedEditing": true,
+}
