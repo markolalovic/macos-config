@@ -19,6 +19,7 @@
 * Rectangle
 * [SaneSideButtons](https://github.com/thealpa/SaneSideButtons)
 * [Stats](https://github.com/exelban/stats)
+* [Easy Move+Resize](https://github.com/dmarcotte/easy-move-resize)
 
 ## Alow in the Background
 
