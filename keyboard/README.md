@@ -2,13 +2,13 @@
 
 
 ## Simple Modifications
-These modifications make the keyboard layout (control, command, option) similar to that on Mac keyboards:
+These modifications make the keyboard layout (control, command, option) as on Mac keyboards:
 
 * application -> right_option
 * right_option -> right_command
 
 ## Complex Modifications
-These modifications make the navigation keys, and shortcuts to take screenshots, just like on Ubuntu Linux:
+Modifications in [`keyboard-mappings.json`](https://raw.githubusercontent.com/markolalovic/my-macos-config-files/main/keyboard/keyboard-mappings.json) make the navigation keys, and shortcuts to take screenshots, just like on Ubuntu Linux:
 
 * shift+print_screen to command+shift+4
 * print_screen to command+shift+3
