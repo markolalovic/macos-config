@@ -10,6 +10,7 @@
 * imagemagick
 * vlc
 * [sanesidebuttons](https://github.com/thealpa/SaneSideButtons)
+* [easy-move-resize](https://github.com/dmarcotte/easy-move-resize)
 
 ## Login Items
 
@@ -26,4 +27,3 @@
 * [Hidden Bar](https://github.com/dwarvesf/hidden)
 * Karabiner-DriverKit
 * Karabiner-Elements
-
