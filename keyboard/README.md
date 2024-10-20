@@ -7,6 +7,10 @@ These modifications make the keyboard layout (control, command, option) as on Ma
 * application -> right_option
 * right_option -> right_command
 
+TODO:
+* § = "non_us_backslash" map to tilde
+* ± = "grave_accent_and_tilde" map to backtick
+
 ## Complex Modifications
 Modifications in [`keyboard-mappings.json`](https://raw.githubusercontent.com/markolalovic/my-macos-config-files/main/keyboard/keyboard-mappings.json) make the navigation keys, and shortcuts to take screenshots, just like on Ubuntu Linux:
 
