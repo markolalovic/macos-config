@@ -1,15 +1,13 @@
 # Keyboard Configuration for Durgod Taurus K320 using Karabiner
 
+## Backtick and tilde
+* Selecting "ANSI" in "Karabiner-Elements Settings / Virtual Keyboard" maps "§" to "`" and "±" to "~".
 
 ## Simple Modifications
 These modifications make the keyboard layout (control, command, option) as on Mac keyboards:
 
 * application -> right_option
 * right_option -> right_command
-
-TODO:
-* § = "non_us_backslash" map to tilde
-* ± = "grave_accent_and_tilde" map to backtick
 
 ## Complex Modifications
 Modifications in [`keyboard-mappings.json`](https://raw.githubusercontent.com/markolalovic/my-macos-config-files/main/keyboard/keyboard-mappings.json) make the navigation keys, and shortcuts to take screenshots, just like on Ubuntu Linux:
