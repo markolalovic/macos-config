@@ -1,7 +1,7 @@
 # Keyboard Configuration for Durgod Taurus K320 using Karabiner
 
 ## Backtick and tilde
-* Selecting "ANSI" in "Karabiner-Elements Settings / Virtual Keyboard" maps "§" to "`" and "±" to "~".
+Selecting "ANSI" in "Karabiner-Elements Settings / Virtual Keyboard" maps "§" to "`" and "±" to "~" as explained in [Karabiner-Elements/issues](https://github.com/pqrs-org/Karabiner-Elements/issues/345).
 
 ## Simple Modifications
 These modifications make the keyboard layout (control, command, option) as on Mac keyboards:
