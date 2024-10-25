@@ -1,7 +1,44 @@
 # Keyboard Configuration for Durgod Taurus K320 using Karabiner
 
 ## Backtick and tilde
-Selecting "ISO / ANSI" in "Karabiner-Elements Settings / Virtual Keyboard" maps back "§" to "`" and "±" to "~" as explained in [Karabiner-Elements/issues](https://github.com/pqrs-org/Karabiner-Elements/issues/345).
+Selecting "ISO / ANSI" in "Karabiner-Elements Settings / Virtual Keyboard" maps back "§" to "`" and "±" to "~" as explained in [Karabiner-Elements/issues](https://github.com/pqrs-org/Karabiner-Elements/issues/345) - doesn't work after reboots.
+
+### Better alternative:
+- Find key codes
+    * Pressing "§" gives "key_code":"non_us_backslash"; usage page: 7 (0x0007) usage: 100 (0x0064)
+    * Pressing "`" gives "key_code":"grave_accent_and _tilde" usage page: 7 (0x0007) usage: 53 (0x0035)
+    * Map "§" key to "`" key by mapping "0x700000064" to "0x700000035"
+        ```
+        hidutil property --set '{"UserKeyMapping":
+            [{"HIDKeyboardModifierMappingSrc":0x700000064,
+            "HIDKeyboardModifierMappingDst":0x700000035}]
+        }'
+        ```
+
+- Permanent solution (Source [How to remap single Mac keyboard key](https://www.grzegorowski.com/how-to-remap-single-mac-keyboard-key))
+    * Create plist file `/Library/LaunchDaemons/org.custom.keyboard-remap.plist` with
+
+        ```
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+        <plist version="1.0">
+        <dict>
+            <key>Label</key>
+            <string>org.custom.keyboard-remap</string>
+            <key>ProgramArguments</key>
+            <array>
+            <string>/usr/bin/hidutil</string>
+            <string>property</string>
+            <string>--set</string>
+            <string>{"UserKeyMapping": [{"HIDKeyboardModifierMappingSrc":0x700000064, "HIDKeyboardModifierMappingDst":0x700000035}] }</string>
+            </array>
+            <key>RunAtLoad</key>
+            <true/>
+            <key>KeepAlive</key>
+            <false/>
+        </dict>
+        </plist>
+        ```
 
 ## Simple Modifications
 These modifications make the keyboard layout (control, command, option) as on Mac keyboards:
