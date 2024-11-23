@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Just Black",
     "editor.minimap.enabled": false,
     "editor.inlineSuggest.enabled": false,
     "editor.inlineSuggest.showToolbar": "never",
@@ -7,8 +6,45 @@
     "editor.suggest.showInlineDetails": false,
     "editor.hover.enabled": false,
     "editor.hover.sticky": false,
-    "workbench.statusBar.visible": false,
-    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": true,
+    "workbench.sideBar.location": "left",
     "editor.snippetSuggestions": "top",
     "editor.linkedEditing": true,
+    "cSpell.caseSensitive": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.lineHeight": 0,
+    "editor.fontSize": 12,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.associations": {
+        "*.html": "liquid"
+    },
+    "scss.validate": false,
+    "prettier.tabWidth": 4,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.preferredDarkColorTheme": "Default High Contrast Light",
+    "explorer.confirmPasteNative": false,
+    "r.lsp.diagnostics": false,
+    "workbench.editorAssociations": {
+        "*.R": "default"
+    },
+    "workbench.colorTheme": "Visual Studio Light",
+    "editor.formatOnSave": false,
+    "workbench.colorCustomizations": {
+            "editorError.foreground":   "#00000000",
+            "editorWarning.foreground": "#00000000",
+            "editorInfo.foreground":    "#00000000"
+    },
+    "css.validate": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "explorer.confirmDragAndDrop": false,
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "update.mode": "none",
+    "update.showReleaseNotes": false
 }

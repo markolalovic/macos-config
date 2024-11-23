@@ -6,3 +6,11 @@ streetsidesoftware.code-spell-checker # spelling suggestions with `cmd ,`
 vunguyentuan.vscode-postcss           # autocomplete CSS suggestions
 bierner.markdown-mermaid              # adds flowchart support to markdown preview
 valentjn.vscode-ltex                  # grammar checking of various markup languages
+mechatroner.rainbow-csv               # highlight columns in csv files
+ms-python.debugpy                     # python debugger
+ms-python.python                      # formatting, linting, navigation, variable explorer, tests
+ms-python.vscode-pylance              # performant language support
+neilding.language-liquid              # liquid language support 
+reditorsupport.r                      # r language support 
+ritwickdey.liveserver                 # live reload feature for dynamic content
+tomoki1207.pdf                        # pdf display
