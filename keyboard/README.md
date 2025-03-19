@@ -39,6 +39,9 @@ Selecting "ISO / ANSI" in "Karabiner-Elements Settings / Virtual Keyboard" maps 
         </dict>
         </plist>
         ```
+    * Then load it with `sudo launchctl load -w /Library/LaunchDaemons/org.custom.keyboard-remap.plist` so it will be loaded on each system reboot.
+
+    * To check if it is loaded successfully `sudo launchctl list | grep org.custom.keyboard-remap.plist`
 
 ## Simple Modifications
 These modifications make the keyboard layout (control, command, option) as on Mac keyboards:
