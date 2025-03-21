@@ -43,6 +43,14 @@ Selecting "ISO / ANSI" in "Karabiner-Elements Settings / Virtual Keyboard" maps 
 
     * To check if it is loaded successfully `sudo launchctl list | grep org.custom.keyboard-remap.plist`
 
+    * To reset, execute:
+    
+        ```
+        hidutil property --set '{"UserKeyMapping": 
+            []
+        }'
+        ```
+
 ## Simple Modifications
 These modifications make the keyboard layout (control, command, option) as on Mac keyboards:
 
